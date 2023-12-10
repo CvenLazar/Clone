@@ -1,0 +1,18 @@
+
+body{
+    background-color: black;
+    background-image: url("Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-top: 100px;
+}
+.image{
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+}
+button{
+    margin-top: 10px;
+}
