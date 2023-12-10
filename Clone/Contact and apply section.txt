@@ -1,0 +1,60 @@
+<!------------------  Contact Form Section ------------------>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1> Contact Form </h1>
+          <p style="padding-bottom:50px;">Any Queries , Drop Contact Form  </p>  
+        </div>
+        <div class="col-md-4" style="border-radius: 6px; border: 3px  #055012 solid;">
+          <h2 style="padding-top: 30px;">Contact Form</h2>
+          <form action="contact.php" method="post">
+            <table>
+              <tr>
+                <label style="float: left; position: absolute; margin-top: 25px; margin-left: -160px; outline:none;"> Name :</label>
+				      	<td style="padding-top: 50px;"><input placeholder="Enter Your Name" type="text" name="txtName" ></td>
+              </tr>
+              <tr >
+                <label style="float: left; position: absolute; margin-top: 100px; margin-left: -160px;"> Email :</label>
+					      <td style="padding-top: 50px;"><input required placeholder="Enter Your Email id " type="email" name="txtEmail"></td>
+              </tr>
+              <tr>
+                <label style="float: left; position: absolute; margin-top: 175px; margin-left: -160px;"> Message :</label>
+                <td style="padding-top: 50px;"><textarea placeholder="Enter Your Message" name="txtMessage" rows="3" cols="22"></textarea></td>
+              
+              </tr>
+              <tr>
+              <td style="padding-top: 50px; padding-bottom: 30px;"><button class="magnifyBtn">Submit</button></a></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="col-md-8" style="padding-left: 50px; width: 100%; padding-top: 30px;">
+          <img src="img/6.svg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class="container-fluid" style="margin-top: 50px;">
+    <div class="row" style="background: linear-gradient(to right, #08a042,#055012 );" width="100%">
+      <div class="col-md-12" style="background-image: linear-gradient(to right, #08a042,#055012 ); color: white;">
+        <h1 style="text-align: center; background-image: linear-gradient(to right, #08a042,#055012 ); color: white;"> Become Candidate</h1>
+        <p>Become a Candidate</p>
+      </div>
+      <div class="col-md-6" >
+        <img src="img/11.svg" style="height: 400px;" >
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h1 style="color: white; margin-top: 40px; margin-bottom: 40px;" class=" ">Apply</h1>
+        <p style="color: white;" >
+          If you want to become a candidate, then you click on the link below, then you will be redirected. In the second
+           page, by filling that, you can request for a candidateAfter that, the administrator will approve your request so you can become a candidate.
+           </p>
+           <a href="insert_cand_year.php"><button class="magnifyBtn" style="margin-bottom: 40px;">Apply</button></a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>

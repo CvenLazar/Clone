@@ -1,0 +1,19 @@
+<!------------------  Candidate Section ------------------>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">     
+      <h1>Online Voting System</h1>
+    </div>
+    <div class="col-md-12" style=" width: 100%; ">
+      <img src="img/10.svg" alt="" srcset="">
+    </div>
+
+
+      <div class="col-md-12">
+      <a href="year.php" ><span ><button style="margin-top: 20px;" class="slideUpBtn">Vote Now</button></span></a>
+    </div>  
+    </div>
+  </div>
+  </div>
+</div>

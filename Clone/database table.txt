@@ -1,0 +1,24 @@
+create table voter(
+Vid int primary key auto_increment,
+Lname varchar(50),
+Fname varchar(50),
+Mi char,
+Birthday date,
+Course varchar(50),
+StudentNo int
+);
+
+insert into voter(lname, fname, mi, birthday, course, studentno)values
+('Lazar', 'Adrian', 'A', '2000-04-13', 'BSIT', 21138352);
+
+create table Candidates(
+Candid int primary key auto_increment,
+Lname varchar(50),
+Fname varchar(50),
+Mi char,
+Birthday date,
+Course varchar(50),
+Contact bigInt,
+StudentNo int,
+Platform varchar(150)
+);
